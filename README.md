@@ -42,7 +42,7 @@ This template includes a sample workflow definition under the speical [.codecata
 
 (3) contains the workflow (pipeline) defenition of the Amazon CodeCatalyst workflow that will trigger based on pushes/changes to the main branch and deploy those changes to AWS.
 
-In addition, the [ImageBuilderForCodeCatalyst.ts](devops/ImageBuilderForCodeCatalyst.ts) stack provides an automation that deploys the Amazon ImageBuilder container recipe and pipeline, as well as a private Amazon Elastic Container Registry (ECR) that will host the build image.
+In addition, the [ImageBuilderForCodeCatalyst.ts](stacks/devops/ImageBuilderForCodeCatalyst.ts) stack provides an automation that deploys the Amazon ImageBuilder container recipe and pipeline, as well as a private Amazon Elastic Container Registry (ECR) that will host the build image.
 
 #### Configuration steps for Amazon CodeCatalyst
 
