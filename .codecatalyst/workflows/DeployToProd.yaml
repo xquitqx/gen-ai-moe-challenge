@@ -31,7 +31,7 @@ Actions:
         - Run: ./.codecatalyst/scripts/sst_deploy.sh
       Container:
         Registry: ECR
-        Image: 440744244382.dkr.ecr.us-east-1.amazonaws.com/devops-coca-codecatalyst-sst-app-imagebuilderforcodecatalyst-ecrrepoforimagebuildercodecatalystbf634ba6-njbruabwckco:2.0.0-1
+        Image: 440744244382.dkr.ecr.us-west-2.amazonaws.com/codecatalyst-support:amazonlinux23withgit-1.2.0-7
     Compute:
       Type: EC2
     Environment:
