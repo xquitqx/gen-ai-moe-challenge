@@ -36,6 +36,6 @@ Actions:
       Type: EC2
     Environment:
       Connections:
-        - Role: CodeCatalystWorkflowDevelopmentRole-EngProTool_Test
-          Name: "820242944301"
+        - Role: CodeCatalystWorkflowDevelopmentRole-DeploymentTest
+          Name: "440744244382"
       Name: Prod
