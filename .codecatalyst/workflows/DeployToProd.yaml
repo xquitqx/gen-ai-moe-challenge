@@ -30,13 +30,12 @@ Actions:
       # Required - Steps are sequential instructions that run shell commands
       Steps:
         - Run: npm audit fix
+        - Run: python3 dynamodbFiller.py
         - Run: chmod +x ./.codecatalyst/scripts/sst_deploy.sh
         - Run: ./.codecatalyst/scripts/sst_deploy.sh
       Container:
         Registry: CODECATALYST
         Image: CodeCatalystLinux_x86_64:2024_03
-    Compute:
-      Type: EC2
     Environment:
       Connections:
         - Role: CodeCatalystWorkflowDevelopmentRole-DeploymentTest
