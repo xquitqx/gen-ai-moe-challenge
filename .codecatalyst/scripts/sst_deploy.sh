@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo "Mohamad you are here"
 echo "Deploying project"
 
 source ~/.bashrc
